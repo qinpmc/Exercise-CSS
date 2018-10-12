@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <style>
+        body,html{
+            height: 100%;
+        }
+        body{
+            color: #fff;
+        }
+        header{
+            height: 100%;
+            min-height: 600px;/*避免盒子内内容过多（但盒子高度无法确定），但盒子高度很小时，内部的内容溢出，设置min-height最小高度撑高对象盒子*/
+            background: #000 url("https://chenleoxx.github.io/demos/companypage/images/%E9%A6%96%E9%A1%B52.jpg") no-repeat;
+            background-size: cover;
+        }
+        header .logo{
+            font-size: 34px;
+            color:#f7ba3e;
+            float: left;
+        }
+        header .nav{
+            float: right;
+        }
+        header .nav >li{
+            float: left;
+            margin: 10px;
+        }
+
+        header .nav a{
+            color: #fff;
+            font-size:16px;
+            padding: 5px;
+            display: inline-block; /*a 行内元素，使用padding撑开，改变display*/
+        }
+        header .nav a:hover{
+            background: #f7ba3e;
+            border-radius: 4px;
+        }
+        .layout{
+            width: 1300px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar clearfix layout">
+            <a href="" class="logo">Game of Thrones</a>
+            <ul class="nav">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Family</a></li>
+                <li><a href="#">Character</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="intro layout">
+            <h2>WINTER IS COMMING.</h2>
+            <h3>ALONE WOLF DEATH,WOLVES LIVE.</h3>
+            <a href="" class="btn">Tell me more</a>
+        </div>
+    </header>
+    <main>
+        <section></section>
+        <section></section>
+        <section></section>
+    </main>
+    <footer></footer>
+</body>
+</html>
