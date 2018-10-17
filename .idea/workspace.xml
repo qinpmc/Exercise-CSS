@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cd77629-5d34-46af-b521-d79ac872a7a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch13enterprise-website/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch13enterprise-website/website1.html" afterPath="$PROJECT_DIR$/ch13enterprise-website/website1.html" />
     </list>
     <ignored path="Exercise-CSS.iws" />
@@ -38,18 +36,8 @@
       <file leaf-file-name="website1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch13enterprise-website/website1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5256167">
-              <caret line="211" column="37" selection-start-line="211" selection-start-column="37" selection-end-line="211" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch13enterprise-website/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.29305914">
+              <caret line="182" column="43" selection-start-line="182" selection-start-column="43" selection-end-line="182" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -84,10 +72,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="322" />
-    <option name="y" value="701" />
+    <option name="x" value="733" />
+    <option name="y" value="78" />
     <option name="width" value="1936" />
-    <option name="height" value="752" />
+    <option name="height" value="614" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -224,7 +212,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="322" y="701" width="1936" height="752" extended-state="0" />
+    <frame x="733" y="78" width="1936" height="614" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -431,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch13enterprise-website/website1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5256167">
-          <caret line="211" column="37" selection-start-line="211" selection-start-column="37" selection-end-line="211" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.29305914">
+          <caret line="182" column="43" selection-start-line="182" selection-start-column="43" selection-end-line="182" selection-end-column="43" />
           <folding />
         </state>
       </provider>

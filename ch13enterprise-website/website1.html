@@ -96,7 +96,7 @@
             margin-top: 20px;
             font-size: 28px;
         }
-        section >ul li{
+        section .family-intro li{
             float: left;
             width: calc(33.33%);
             padding: 20px;
@@ -132,6 +132,61 @@
         section .family p{
             margin-top: 10px;
         }
+        section .timeline{
+            position: relative;
+        }
+        section .timeline>li:nth-child(odd){
+            margin-top: 50px;
+            padding-right: calc(50% - 50px);
+        }
+        section .timeline>li:nth-child(even){
+            margin-top: 50px;
+            padding-left: calc(50% - 50px);
+        }
+        section .timeline>li::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        section .timeline img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border:3px solid lightskyblue;
+        }
+
+        section .timeline>li:nth-child(odd) img{
+            float: right;
+        }
+        section .timeline>li:nth-child(even) img{
+            float:left;
+        }
+        section .timeline  li:nth-child(odd) dl{
+            margin-right: 120px;
+        }
+        section .timeline  li:nth-child(even) dl{
+            margin-left: 120px;
+        }
+
+        section .timeline  dt{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        section .timeline  dd:nth-child(2){
+            font-weight: bold;
+        }
+
+        section .timeline .linethrough{
+            content: "";
+            display: block;
+            border: 1px solid lightskyblue;
+            height: 100%;
+            position: absolute;
+            top:0%;
+            left: 50%;
+            z-index: -1;
+        }
     </style>
 </head>
 <body>
@@ -156,7 +211,7 @@
         <section>
             <h2>家族介绍</h2>
             <p>关于各个家族的介绍</p>
-            <ul class="clearfix">
+            <ul class="clearfix family-intro">
                 <li><span class="iconfont icon-jiashu"></span>
                     <h3>徒利家族</h3>
                     <p>徒利家族的历史最早可以追溯到先民时代。第一位艾德慕·徒利与“正义之锤”特里斯蒂芬四世并肩作战，赢得九十九场战斗的胜利。特里斯蒂芬死后，艾德慕爵士臣服于当时最强大的安达尔征服者Armistead Vance。</p>
@@ -210,6 +265,49 @@
         <section>
             <h2>ABOUT</h2>
             <p>Winter Is Comming!</p>
+            <ul class="timeline">
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2557391501,4119210283&fm=26&gp=0.jpg" alt="">
+                    <dl>
+                        <dt>April 2011</dt>
+                        <dd>Game of Thrones Season 1</dd>
+                        <dd>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2557391501,4119210283&fm=26&gp=0.jpg" alt="">
+                    <dl>
+                        <dt>April 2011</dt>
+                        <dd>Game of Thrones Season 1</dd>
+                        <dd>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2557391501,4119210283&fm=26&gp=0.jpg" alt="">
+                    <dl>
+                        <dt>April 2011</dt>
+                        <dd>Game of Thrones Season 1</dd>
+                        <dd>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2557391501,4119210283&fm=26&gp=0.jpg" alt="">
+                    <dl>
+                        <dt>April 2011</dt>
+                        <dd>Game of Thrones Season 1</dd>
+                        <dd>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2557391501,4119210283&fm=26&gp=0.jpg" alt="">
+                    <dl>
+                        <dt>April 2011</dt>
+                        <dd>Game of Thrones Season 1</dd>
+                        <dd>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</dd>
+                    </dl>
+                </li>
+                <span class="linethrough"></span>
+            </ul>
         </section>
     </main>
     <footer></footer>
