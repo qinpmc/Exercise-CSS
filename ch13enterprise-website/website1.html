@@ -111,19 +111,27 @@
         }
         section .family figure{
             width: calc(33.33% - 20px);
-            height: 300px;
+            height: 240px;
             float: left;
             margin: 10px;
         }
         section .family a{
             display: block;
-            height: 240px;
+            height: 180px;
         }
         section .family img{
             width: 100%;
             height: 100%;
+            vertical-align: bottom; /*消除包裹的a标签高度略高于img高度*/
         }
-
+        section .family figcaption{
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        section .family p{
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -165,8 +173,8 @@
         </section>
         <section>
             <h2>FAMILY</h2>
-            <p>《权力的游戏》（Game of Thrones），是美国HBO电视网制作推出的一部中世纪史诗奇幻题材的电视剧。该剧改编自美国作家乔治·R·R·马丁的奇幻小说《冰与火之歌》系列</p>
-            <div class="family">
+            <p>《权力的游戏》是美国HBO电视网制作推出的一部中世纪史诗奇幻题材的电视剧.</p>
+            <div class="family clearfix">
                 <figure>
                     <a href=""><img src="http://img.zcool.cn/community/01711a59fabf90a801202b0c970ded.jpg@1280w_1l_2o_100sh.jpg" alt=""></a>
                     <figcaption>House Starks</figcaption>
@@ -199,7 +207,10 @@
                 </figure>
             </div>
         </section>
-        <section></section>
+        <section>
+            <h2>ABOUT</h2>
+            <p>Winter Is Comming!</p>
+        </section>
     </main>
     <footer></footer>
 </body>
